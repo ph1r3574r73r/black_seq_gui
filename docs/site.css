@@ -309,6 +309,30 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   font-size: 0.9em;
 }
 
+.status-note {
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1rem, 3vw, 2rem);
+  border-top: 1px solid var(--line);
+  max-width: 42rem;
+}
+
+.status-note h2 {
+  margin: 0 0 0.75rem;
+  font-family: Syne, "IBM Plex Mono", sans-serif;
+  font-size: clamp(1.4rem, 2.8vw, 1.9rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.status-note p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 48ch;
+}
+
+.status-inline {
+  color: #b7b7b7 !important;
+}
+
 .foot {
   padding: 1.5rem clamp(1rem, 3vw, 2rem) 2.5rem;
   border-top: 1px solid var(--line);

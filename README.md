@@ -2,6 +2,8 @@
 
 Local companion editor for [Erica Synths Black Sequencer](https://www.ericasynths.lv/) SD card projects. Edit patterns and songs on disk, preview audio with Mutable Instruments modules in a lean rack, import MIDI files, and record from a MIDI controller.
 
+**Work in progress** — built for personal use and shared as-is. Not everything is tested end-to-end. Bugs and surprises welcome as [GitHub issues](https://github.com/ph1r3574r73r/black_seq_gui/issues).
+
 The rack is a **preview voice** so sequences are listenable while you work. The card and hardware remain the destination.
 
 ## Run

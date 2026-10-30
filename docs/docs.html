@@ -9,7 +9,7 @@
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Docs — Black Sequencer</title>
-  <meta name="description" content="How to use the Black Sequencer companion editor: install, edit patterns, MIDI, rack preview, and copy projects to an SD card.">
+  <meta name="description" content="A friendly guide to the Black Sequencer companion editor: install, edit, listen, and copy projects to your SD card.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -29,96 +29,97 @@
   <main class="manual">
     <header class="manual-hero">
       <p class="brand">Docs</p>
-      <h1>Get from download to card.</h1>
-      <p class="lede">Short guide for the macOS app. The hardware Black Sequencer and its SD layout stay the source of truth — this editor just makes the files easier to write.</p>
-      <p class="meta"><a href="./#download">Download</a> · <a href="./">Home</a></p>
+      <h1>From download to your module.</h1>
+      <p class="lede">This app is a helper for Erica Synths Black Sequencer projects. Write patterns on your Mac, hear a rough preview, then copy them to the SD card the hardware already understands.</p>
+      <p class="lede status-inline">It’s still a work in progress — not everything has been tested end-to-end. If you hit a bug or something surprising, <a id="issues-link" href="https://github.com/ph1r3574r73r/black_seq_gui/issues">report it on GitHub Issues</a>.</p>
+      <p class="meta"><a href="./#download">Download</a> · <a href="./">Home</a> · <a href="https://github.com/ph1r3574r73r/black_seq_gui/issues">Issues</a></p>
     </header>
 
     <ol class="manual-toc">
-      <li><a href="docs.html#install">Install &amp; open</a></li>
-      <li><a href="docs.html#studio">Studio &amp; demo</a></li>
+      <li><a href="docs.html#install">Install</a></li>
+      <li><a href="docs.html#studio">Home screen</a></li>
       <li><a href="docs.html#patterns">Patterns</a></li>
       <li><a href="docs.html#songs">Songs</a></li>
       <li><a href="docs.html#midi">MIDI</a></li>
-      <li><a href="docs.html#rack">Rack preview</a></li>
-      <li><a href="docs.html#card">Copy to card</a></li>
-      <li><a href="docs.html#source">Run from source</a></li>
+      <li><a href="docs.html#rack">Hearing your work</a></li>
+      <li><a href="docs.html#card">Copy to the card</a></li>
+      <li><a href="docs.html#source">Without the Mac app</a></li>
     </ol>
 
     <article id="install" class="manual-section">
-      <h2>Install &amp; open</h2>
+      <h2>Install</h2>
       <ol>
-        <li>Download <code>BlackSequencer-macOS.zip</code> from the <a href="./#download">landing page</a> (or Releases).</li>
-        <li>Unzip. You’ll get <strong>Black Sequencer.app</strong>.</li>
-        <li>First open: right-click the app → <strong>Open</strong> (it’s unsigned, so Gatekeeper may block a normal double-click once).</li>
-        <li>On first launch the app seeds <strong>DEMO BANK</strong> and the factory rack into <code>~/Library/Application Support/BlackSequencer/</code>.</li>
+        <li>Grab the macOS zip from the <a href="./#download">download</a> section.</li>
+        <li>Unzip it. You’ll see <strong>Black Sequencer</strong>.</li>
+        <li>The first time, right-click the app and choose <strong>Open</strong>. macOS may warn you because the build isn’t signed — that’s expected for this free tool.</li>
+        <li>On first launch it drops a demo project on your Mac so you have something to open right away.</li>
       </ol>
     </article>
 
     <article id="studio" class="manual-section">
-      <h2>Studio &amp; demo</h2>
-      <p>The home screen has two columns:</p>
+      <h2>Home screen</h2>
+      <p>Two sides:</p>
       <ul>
-        <li><strong>Studio</strong> — projects on this Mac.</li>
-        <li><strong>Card</strong> — a mounted volume that already contains a <code>PROJECTS/</code> folder (your Black Sequencer SD).</li>
+        <li><strong>Studio</strong> — projects living on this computer.</li>
+        <li><strong>Card</strong> — your Black Sequencer SD card, once it’s plugged in and mounted.</li>
       </ul>
-      <p>Open <strong>DEMO BANK</strong> (100 BPM) to poke around. Bank 1 has boom-bap <strong>NIGHT RIDE</strong> and techno <strong>GRIDLOCK</strong>; later banks add more techno and ambient starters. Create your own project with the name field + <strong>Create</strong>.</p>
+      <p>Start with <strong>DEMO BANK</strong>. It’s a small set of patterns and songs (boom-bap, techno, ambient) so you can click around without building anything from scratch. When you’re ready for your own stuff, type a name and hit <strong>Create</strong>.</p>
     </article>
 
     <article id="patterns" class="manual-section">
       <h2>Patterns</h2>
+      <p>A pattern is four tracks — CH1 through CH4. Draw notes on a lane, or open a channel wider when you want the piano-style editor.</p>
       <ul>
-        <li>Four channels: <strong>CH1–CH4</strong>. Paint on the lane; expand a channel for the piano roll / note editing.</li>
-        <li><strong>M</strong> / <strong>S</strong> mute and solo per channel.</li>
-        <li>Pick bank, pattern slot, tempo, and block length from the top bar.</li>
-        <li><strong>Play</strong> / <strong>Stop</strong> use the preview rack so you can hear the sequence.</li>
-        <li><strong>Save pattern</strong> writes the <code>.SEQ</code> (and related project data) back to disk. Save before you copy to a card.</li>
+        <li><strong>M</strong> mutes a track; <strong>S</strong> solos it.</li>
+        <li>Bank, pattern number, tempo, and length live up top.</li>
+        <li><strong>Play</strong> and <strong>Stop</strong> run the soft preview so you can hear what you wrote.</li>
+        <li>Hit <strong>Save pattern</strong> when you’re happy. Do this before you copy anything to the card.</li>
       </ul>
     </article>
 
     <article id="songs" class="manual-section">
       <h2>Songs</h2>
-      <p>The <strong>Song</strong> tab chains patterns the way the module expects — name the song, set pattern slots and repeats, then save. Song files live next to patterns in the bank folder.</p>
+      <p>Songs are just patterns lined up in order — the same idea as on the hardware. Open the <strong>Song</strong> tab, give it a name, pick which patterns play and how many times, then save.</p>
     </article>
 
     <article id="midi" class="manual-section">
       <h2>MIDI</h2>
       <ul>
-        <li><strong>Import MIDI</strong> — load an SMF and map up to four tracks or channels onto CH1–4.</li>
-        <li><strong>MIDI in</strong> — choose a controller (goes through the app, not browser WebMIDI).</li>
-        <li><strong>Rec</strong> — arm recording; notes land on the selected channel while playing (or step-record when stopped).</li>
-        <li><strong>Learn CC</strong> / Alt-click rack knobs — map controller knobs to brush or module params.</li>
+        <li><strong>Import MIDI</strong> — bring in a MIDI file and point up to four parts at CH1–4.</li>
+        <li><strong>MIDI in</strong> — pick your keyboard or controller.</li>
+        <li><strong>Rec</strong> — arm recording, then play. Notes land on the track you have selected. You can also step-record while stopped.</li>
+        <li><strong>Learn CC</strong> (or Alt-click a rack knob) — twist a hardware knob once so the app remembers it.</li>
       </ul>
     </article>
 
     <article id="rack" class="manual-section">
-      <h2>Rack preview</h2>
-      <p>The <strong>Rack</strong> tab is a listen-while-you-edit voice, not a hardware clone. Factory patch: Plaits lead, Rings, Plaits bass, Peaks drums → mixer → output. Save your own presets from the rack toolbar. Mute channels on the mixer if you only want to hear one part.</p>
+      <h2>Hearing your work</h2>
+      <p>The <strong>Rack</strong> tab is a quick listen, not a copy of your real modular case. Out of the box you get a lead, a pad, a bass, and drums mixed together. Tweak cables and knobs if you want; save a preset when it feels good. Mute mixer channels when you only want to hear one part.</p>
     </article>
 
     <article id="card" class="manual-section">
-      <h2>Copy to card</h2>
+      <h2>Copy to the card</h2>
       <ol>
-        <li>Mount the SD card so the volume root has <code>PROJECTS/</code> (same layout the module uses).</li>
+        <li>Plug in the SD card the Black Sequencer uses. It should look like a normal drive with a <strong>PROJECTS</strong> folder on it.</li>
         <li>On the home screen, choose that drive under <strong>Card</strong>.</li>
-        <li>Select a studio project → <strong>To card</strong> (or work on a project already on the card and save there).</li>
-        <li>Eject, put the card in the Black Sequencer, load the project on the hardware.</li>
+        <li>Select a studio project and hit <strong>To card</strong> — or open a project that’s already on the card and save there.</li>
+        <li>Eject the card, put it in the module, and load the project like you usually would.</li>
       </ol>
-      <p>Always save the pattern in the editor before transferring. The module reads the files on the card — what you hear in the preview rack is only a sketch.</p>
+      <p>Remember: the module only sees what’s on the card. The soft rack is just so editing isn’t silent.</p>
     </article>
 
     <article id="source" class="manual-section">
-      <h2>Run from source</h2>
-      <p>On Linux/Windows, or if you prefer not to use the app:</p>
+      <h2>Without the Mac app</h2>
+      <p>On Linux or Windows, or if you’d rather run from the repo:</p>
       <pre><code>python3 -m pip install -r requirements.txt
 python3 -m blackseq --desktop</code></pre>
-      <p>Or <code>python3 -m blackseq</code> and open <code>http://127.0.0.1:8765</code>. Full notes live in the repo README.</p>
+      <p>Same editor, different wrapper. More detail lives in the GitHub README if you need it.</p>
     </article>
   </main>
 
   <footer class="foot">
-    <p>Unofficial companion for Erica Synths Black Sequencer — not an Erica Synths product.</p>
-    <p><a href="./">Home</a> · <a href="./#download">Download</a></p>
+    <p>Community helper for Erica Synths Black Sequencer — not an official Erica Synths product. Shared unfinished; please be kind and file issues when stuff breaks.</p>
+    <p><a href="./">Home</a> · <a href="./#download">Download</a> · <a href="https://github.com/ph1r3574r73r/black_seq_gui/issues">Issues</a></p>
   </footer>
 
   <script src="site.js"></script>

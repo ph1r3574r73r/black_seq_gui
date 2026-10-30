@@ -8,6 +8,7 @@
     document.getElementById("download-btn-main"),
   ].filter(Boolean);
   const releasesLink = document.getElementById("releases-link");
+  const issuesLinks = [...document.querySelectorAll("#issues-link, a[data-issues]")];
   const navSource = document.getElementById("nav-source");
   const releaseMeta = document.getElementById("release-meta");
   const downloadStatus = document.getElementById("download-status");
@@ -40,6 +41,9 @@
       btn.removeAttribute("aria-disabled");
     }
     if (releasesLink) releasesLink.href = releasesUrl;
+    for (const link of issuesLinks) {
+      link.href = `https://github.com/${repo}/issues`;
+    }
     if (navSource) {
       navSource.hidden = false;
       navSource.href = `https://github.com/${repo}`;
