@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132.08mm" height="128.5mm" viewBox="0 0 132.08 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="sequencer32alu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b182da"/>
+      <stop offset="1" stop-color="#312249"/>
+    </linearGradient>
+    <radialGradient id="sequencer32well" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="sequencer32jack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="132.08" height="128.5" fill="url(#sequencer32alu)"/>
+<g opacity="0.45"><g opacity=".28"><circle cx="6.0" cy="17" r="1.6" fill="#c46c89" fill-opacity=".55"/><circle cx="14.6" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="23.2" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="31.7" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="40.3" cy="17" r="1.6" fill="#c46c89" fill-opacity=".55"/><circle cx="48.9" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="57.5" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="66.0" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="74.6" cy="17" r="1.6" fill="#c46c89" fill-opacity=".55"/><circle cx="83.2" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="91.8" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="100.3" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/><circle cx="108.9" cy="17" r="1.6" fill="#c46c89" fill-opacity=".55"/><circle cx="117.5" cy="17" r="1.6" fill="#5292bf" fill-opacity=".55"/></g></g>
+
+<rect x="1.5" y="28" width="129.08" height="88" rx="2" fill="#312249" opacity=".22"/>
+<circle cx="7.5" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="7.5" cy="3" r=".55" fill="#555"/>
+<circle cx="124.58" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="124.58" cy="3" r=".55" fill="#555"/>
+<circle cx="7.5" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="7.5" cy="125.5" r=".55" fill="#555"/>
+<circle cx="124.58" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="124.58" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="66.04" y="10" text-anchor="middle" font-family='"Avenir Next", Futura, "Century Gothic", "Trebuchet MS", sans-serif' font-size="4.8" letter-spacing="0.35" font-weight="900" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">SEQ 32</text>
+    <text x="66.04" y="13.6" text-anchor="middle" font-family='"Avenir Next", Futura, "Century Gothic", "Trebuchet MS", sans-serif' font-size="1.85" font-weight="600" fill="#d6bcfa">steps · gates</text><circle cx="23.77" cy="20.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="23.77" cy="20.00" r="5.00" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<text x="23.77" y="28.90" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">LEN</text>
+<circle cx="50.19" cy="20.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="50.19" cy="20.00" r="5.00" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<text x="50.19" y="28.90" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">GLIDE</text>
+<circle cx="13.07" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="13.07" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="13.07" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="13.07" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="28.20" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="28.20" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="28.20" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="28.20" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="43.34" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="43.34" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="43.34" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="43.34" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="58.47" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="58.47" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="58.47" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="58.47" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="73.61" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="73.61" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="73.61" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="73.61" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="88.74" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="88.74" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="88.74" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="88.74" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="103.88" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="103.88" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="103.88" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="103.88" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="119.01" cy="33.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="119.01" cy="33.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="119.01" cy="41.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="119.01" cy="41.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="13.07" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="13.07" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="13.07" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="13.07" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="28.20" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="28.20" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="28.20" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="28.20" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="43.34" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="43.34" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="43.34" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="43.34" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="58.47" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="58.47" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="58.47" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="58.47" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="73.61" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="73.61" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="73.61" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="73.61" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="88.74" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="88.74" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="88.74" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="88.74" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="103.88" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="103.88" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="103.88" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="103.88" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="119.01" cy="49.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="119.01" cy="49.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="119.01" cy="58.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="119.01" cy="58.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="13.07" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="13.07" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="13.07" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="13.07" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="28.20" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="28.20" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="28.20" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="28.20" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="43.34" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="43.34" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="43.34" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="43.34" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="58.47" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="58.47" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="58.47" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="58.47" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="73.61" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="73.61" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="73.61" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="73.61" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="88.74" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="88.74" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="88.74" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="88.74" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="103.88" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="103.88" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="103.88" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="103.88" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="119.01" cy="66.28" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="119.01" cy="66.28" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="119.01" cy="74.86" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="119.01" cy="74.86" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="13.07" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="13.07" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="13.07" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="13.07" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="28.20" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="28.20" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="28.20" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="28.20" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="43.34" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="43.34" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="43.34" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="43.34" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="58.47" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="58.47" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="58.47" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="58.47" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="73.61" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="73.61" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="73.61" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="73.61" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="88.74" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="88.74" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="88.74" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="88.74" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="103.88" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="103.88" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="103.88" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="103.88" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<circle cx="119.01" cy="82.78" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="119.01" cy="82.78" r="4.40" fill="url(#sequencer32well)" stroke="#ffffff" stroke-width=".4"/>
+<circle cx="119.01" cy="91.36" r="2.35" fill="#121214" stroke="#ffffff" stroke-width=".4" opacity=".85"/>
+<circle cx="119.01" cy="91.36" r="1.06" fill="#5292bf" opacity=".35"/>
+<rect x="91.60" y="17.75" width="7.00" height="4.50" rx="0.5" fill="#0a0a0c" stroke="#5292bf" stroke-width=".4"/>
+<circle cx="13.07" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="13.07" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="28.20" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="28.20" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="43.34" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="43.34" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="58.47" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="58.47" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="73.61" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="73.61" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="88.74" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="88.74" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="103.88" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="103.88" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="119.01" cy="28.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="119.01" cy="28.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="13.07" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="13.07" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="28.20" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="28.20" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="43.34" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="43.34" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="58.47" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="58.47" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="73.61" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="73.61" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="88.74" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="88.74" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="103.88" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="103.88" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="119.01" cy="45.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="119.01" cy="45.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="13.07" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="13.07" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="28.20" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="28.20" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="43.34" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="43.34" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="58.47" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="58.47" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="73.61" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="73.61" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="88.74" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="88.74" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="103.88" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="103.88" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="119.01" cy="61.99" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="119.01" cy="61.99" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="13.07" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="13.07" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="28.20" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="28.20" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="43.34" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="43.34" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="58.47" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="58.47" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="73.61" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="73.61" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="88.74" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="88.74" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="103.88" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="103.88" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="119.01" cy="78.49" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="119.01" cy="78.49" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="36.98" cy="102.00" r="2.85" fill="url(#sequencer32jack)"/><circle cx="36.98" cy="102.00" r="1.28" fill="#111"/>
+<text x="36.98" y="108.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">CLK</text>
+<circle cx="72.64" cy="102.00" r="2.85" fill="url(#sequencer32jack)"/><circle cx="72.64" cy="102.00" r="1.28" fill="#111"/>
+<text x="72.64" y="108.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">RST</text>
+<circle cx="29.06" cy="115.00" r="2.85" fill="url(#sequencer32jack)"/><circle cx="29.06" cy="115.00" r="1.28" fill="#111"/>
+<text x="29.06" y="121.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">CV</text>
+<circle cx="66.04" cy="115.00" r="2.85" fill="url(#sequencer32jack)"/><circle cx="66.04" cy="115.00" r="1.28" fill="#111"/>
+<text x="66.04" y="121.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">GATE</text>
+<circle cx="103.02" cy="115.00" r="2.85" fill="url(#sequencer32jack)"/><circle cx="103.02" cy="115.00" r="1.28" fill="#111"/>
+<text x="103.02" y="121.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#312249" stroke-width="0.45" paint-order="stroke fill">EOC</text>
+
+</svg>

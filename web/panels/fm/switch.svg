@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30.48mm" height="128.5mm" viewBox="0 0 30.48 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="seqswitchalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7c3a0"/>
+      <stop offset="1" stop-color="#a94837"/>
+    </linearGradient>
+    <radialGradient id="seqswitchwell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="seqswitchjack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="30.48" height="128.5" fill="url(#seqswitchalu)"/>
+<g opacity="0.45"><g fill="none" stroke="#394785" stroke-width="1" opacity=".35">
+        <circle cx="15.2" cy="64" r="28"/>
+        <circle cx="15.2" cy="64" r="18"/>
+        <path d="M15.2 64 L37.2 48"/>
+        <circle cx="38.9" cy="39.6" r="2.5" fill="#3d403f" stroke="none" opacity=".6"/><circle cx="48.2" cy="55.6" r="2.5" fill="#3d403f" stroke="none" opacity=".6"/><circle cx="47.7" cy="74.0" r="2.5" fill="#3d403f" stroke="none" opacity=".6"/><circle cx="37.7" cy="89.5" r="2.5" fill="#3d403f" stroke="none" opacity=".6"/>
+      </g></g>
+
+<rect x="1.5" y="28" width="27.48" height="88" rx="2" fill="#a94837" opacity=".22"/>
+<circle cx="3.66" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="3.66" cy="3" r=".55" fill="#555"/>
+<circle cx="26.82" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="26.82" cy="3" r=".55" fill="#555"/>
+<circle cx="3.66" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="3.66" cy="125.5" r=".55" fill="#555"/>
+<circle cx="26.82" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="26.82" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="15.24" y="10" text-anchor="middle" font-family='Rockwell, "Courier New", "Lucida Console", monospace' font-size="4" letter-spacing="0.35" font-weight="900" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">SWITCH</text>
+    <text x="15.24" y="13.6" text-anchor="middle" font-family='Rockwell, "Courier New", "Lucida Console", monospace' font-size="1.85" font-weight="600" fill="#4a3728">sequential</text><circle cx="15.24" cy="25.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="15.24" cy="25.00" r="5.00" fill="url(#seqswitchwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="15.24" y="33.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">STEPS</text>
+<rect x="11.74" y="33.75" width="7.00" height="4.50" rx="0.5" fill="#0a0a0c" stroke="#394785" stroke-width=".4"/>
+<circle cx="4.50" cy="77.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="4.50" cy="77.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="26.50" cy="77.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="26.50" cy="77.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="4.50" cy="89.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="4.50" cy="89.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="26.50" cy="89.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="26.50" cy="89.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="8.00" cy="44.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="8.00" cy="44.00" r="1.10" fill="#111"/>
+<text x="8.00" y="49.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">TRIG</text>
+<circle cx="22.50" cy="44.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="22.50" cy="44.00" r="1.10" fill="#111"/>
+<text x="22.50" y="49.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">RST</text>
+<circle cx="8.00" cy="58.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="8.00" cy="58.00" r="1.10" fill="#111"/>
+<text x="8.00" y="63.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">COM IN</text>
+<circle cx="22.50" cy="58.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="22.50" cy="58.00" r="1.10" fill="#111"/>
+<text x="22.50" y="63.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">COM OUT</text>
+<circle cx="8.00" cy="77.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="8.00" cy="77.00" r="1.10" fill="#111"/>
+<text x="8.00" y="82.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">O1</text>
+<circle cx="22.50" cy="77.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="22.50" cy="77.00" r="1.10" fill="#111"/>
+<text x="22.50" y="82.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">O2</text>
+<circle cx="8.00" cy="89.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="8.00" cy="89.00" r="1.10" fill="#111"/>
+<text x="8.00" y="94.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">O3</text>
+<circle cx="22.50" cy="89.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="22.50" cy="89.00" r="1.10" fill="#111"/>
+<text x="22.50" y="94.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">O4</text>
+<circle cx="5.50" cy="108.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="5.50" cy="108.00" r="1.10" fill="#111"/>
+<text x="5.50" y="113.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">I1</text>
+<circle cx="12.20" cy="108.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="12.20" cy="108.00" r="1.10" fill="#111"/>
+<text x="12.20" y="113.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">I2</text>
+<circle cx="18.90" cy="108.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="18.90" cy="108.00" r="1.10" fill="#111"/>
+<text x="18.90" y="113.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">I3</text>
+<circle cx="25.50" cy="108.00" r="2.45" fill="url(#seqswitchjack)"/><circle cx="25.50" cy="108.00" r="1.10" fill="#111"/>
+<text x="25.50" y="113.95" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a94837" stroke-width="0.45" paint-order="stroke fill">I4</text>
+
+</svg>

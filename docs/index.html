@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>
+    // Project Pages live under /black_seq_gui/; keep local file:// and localhost previews working.
+    if (/\.github\.io$/i.test(location.hostname)) {
+      document.write('<base href="/black_seq_gui/">');
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Black Sequencer — companion editor</title>
+  <meta name="description" content="Edit Erica Synths Black Sequencer projects on your Mac. Pattern piano-roll, song chains, MIDI import, and a Mutable Instruments preview rack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="top">
+    <a class="mark" href="./">Black Sequencer</a>
+    <nav>
+      <a href="./#features">Features</a>
+      <a href="docs.html">Docs</a>
+      <a href="./#download">Download</a>
+      <a id="nav-source" href="#" hidden>Source</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Introduction">
+      <figure class="hero-stage">
+        <img src="assets/pattern-editor.png" width="1600" height="1000" alt="Pattern editor with four channel lanes, transport, and bank/pattern selectors" decoding="async">
+      </figure>
+      <div class="hero-copy">
+        <p class="brand">Black Sequencer</p>
+        <h1>Edit the card before it hits the rack.</h1>
+        <p class="lede">A local companion for Erica Synths Black Sequencer SD projects — patterns, songs, MIDI in, and a Mutable Instruments preview voice so you can hear what you write.</p>
+        <div class="cta">
+          <a id="download-btn" class="btn primary" href="./#download">Download for macOS</a>
+          <a class="btn ghost" href="docs.html">Docs</a>
+        </div>
+        <p id="release-meta" class="meta" hidden></p>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <article class="feature">
+        <div class="feature-copy">
+          <h2>Four-channel pattern editor</h2>
+          <p>Paint gates and notes across CH1–4, expand a channel for the piano roll, mute/solo per lane, and save straight back to `.SEQ` on disk.</p>
+        </div>
+        <figure>
+          <img src="assets/pattern-editor.png" width="1600" height="1000" alt="Demo bank pattern with melodic and drum lanes" loading="lazy">
+        </figure>
+      </article>
+
+      <article class="feature reverse">
+        <div class="feature-copy">
+          <h2>Preview rack that actually sings</h2>
+          <p>Factory voice: Plaits lead, Rings pads, Plaits bass, Peaks drums — cable them how you like. Preview audio is a working sketch, not a hardware clone.</p>
+        </div>
+        <figure>
+          <img src="assets/rack.png" width="1600" height="1000" alt="Virtual eurorack rack with Black Sequencer CV/gate/mod patched into Plaits and Rings" loading="lazy">
+        </figure>
+      </article>
+
+      <article class="feature">
+        <div class="feature-copy">
+          <h2>Studio ↔ card</h2>
+          <p>Keep projects in a local studio library, then push to a mounted SD volume that already has `PROJECTS/`. Duplicate, rename, delete without leaving the editor.</p>
+        </div>
+        <figure>
+          <img src="assets/studio-home.png" width="1600" height="1000" alt="Studio and Card project browser with DEMO BANK selected" loading="lazy">
+        </figure>
+      </article>
+    </section>
+
+    <section class="strip" aria-label="Also included">
+      <h2>Also in the box</h2>
+      <ul>
+        <li>
+          <strong>MIDI import</strong>
+          <span>Map SMF tracks or channels onto CH1–4.</span>
+        </li>
+        <li>
+          <strong>MIDI record</strong>
+          <span>Arm Rec, play from a controller, write into the selected track.</span>
+        </li>
+        <li>
+          <strong>Song chains</strong>
+          <span>Arrange patterns into songs the module understands.</span>
+        </li>
+        <li>
+          <strong>Shipped demo</strong>
+          <span>DEMO BANK at 100 BPM — boom-bap, techno, ambient starters.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="download" class="download">
+      <h2>Download</h2>
+      <p class="lede">macOS app from the latest GitHub Release. First launch seeds the demo bank into Application Support.</p>
+      <div class="cta">
+        <a id="download-btn-main" class="btn primary" href="#">Download for macOS</a>
+        <a class="btn ghost" href="docs.html">Docs</a>
+        <a id="releases-link" class="btn ghost" href="#">All releases</a>
+      </div>
+      <p id="download-status" class="meta">Looking up the latest build…</p>
+      <p class="fine">Not on a Mac, or prefer source? Install Python deps and run <code>python3 -m blackseq --desktop</code> from the repo — same UI on Linux and Windows.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Public-domain community tool for Erica Synths Black Sequencer — not an official Erica Synths product.</p>
+    <p>Mutable Instruments preview DSP remains MIT (Émilie Gillet). Unsigned macOS build — right-click → Open the first time if needed.</p>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>

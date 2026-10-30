@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30.48mm" height="128.5mm" viewBox="0 0 30.48 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="stereoalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecddae"/>
+      <stop offset="1" stop-color="#b9627f"/>
+    </linearGradient>
+    <radialGradient id="stereowell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="stereojack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="30.48" height="128.5" fill="url(#stereoalu)"/>
+<g opacity="0.45"><g opacity=".35">
+        <rect x="0" y="0" width="15.24" height="128.5" fill="#6b5fb8" fill-opacity=".2"/>
+        <rect x="15.24" y="0" width="15.24" height="128.5" fill="#1fa49f" fill-opacity=".25"/>
+        <line x1="15.24" y1="16" x2="15.24" y2="120" stroke="#2d3436" stroke-width=".4" stroke-dasharray="2 2"/>
+      </g></g>
+
+<rect x="1.5" y="28" width="27.48" height="88" rx="2" fill="#b9627f" opacity=".22"/>
+<circle cx="3.66" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="3.66" cy="3" r=".55" fill="#555"/>
+<circle cx="26.82" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="26.82" cy="3" r=".55" fill="#555"/>
+<circle cx="3.66" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="3.66" cy="125.5" r=".55" fill="#555"/>
+<circle cx="26.82" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="26.82" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="15.24" y="10" text-anchor="middle" font-family='"Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif' font-size="4" letter-spacing="0.35" font-weight="900" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">STEREO</text>
+    <text x="15.24" y="13.6" text-anchor="middle" font-family='"Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif' font-size="1.85" font-weight="600" fill="#636e72">pan · width</text><circle cx="15.24" cy="28.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="15.24" cy="28.00" r="5.00" fill="url(#stereowell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="15.24" y="36.90" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">PAN</text>
+<circle cx="8.00" cy="52.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="8.00" cy="52.00" r="5.00" fill="url(#stereowell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="8.00" y="60.90" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">WIDTH</text>
+<circle cx="22.50" cy="52.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="22.50" cy="52.00" r="5.00" fill="url(#stereowell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="22.50" y="60.90" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">LEVEL</text>
+<circle cx="8.00" cy="78.00" r="2.85" fill="url(#stereojack)"/><circle cx="8.00" cy="78.00" r="1.28" fill="#111"/>
+<text x="8.00" y="84.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">IN L</text>
+<circle cx="22.50" cy="78.00" r="2.85" fill="url(#stereojack)"/><circle cx="22.50" cy="78.00" r="1.28" fill="#111"/>
+<text x="22.50" y="84.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">IN R</text>
+<circle cx="15.24" cy="94.00" r="2.85" fill="url(#stereojack)"/><circle cx="15.24" cy="94.00" r="1.28" fill="#111"/>
+<text x="15.24" y="100.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">PAN CV</text>
+<circle cx="8.00" cy="112.00" r="2.85" fill="url(#stereojack)"/><circle cx="8.00" cy="112.00" r="1.28" fill="#111"/>
+<text x="8.00" y="118.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">OUT L</text>
+<circle cx="22.50" cy="112.00" r="2.85" fill="url(#stereojack)"/><circle cx="22.50" cy="112.00" r="1.28" fill="#111"/>
+<text x="22.50" y="118.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">OUT R</text>
+
+</svg>

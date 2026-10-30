@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20.32mm" height="128.5mm" viewBox="0 0 20.32 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="aralu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecace0"/>
+      <stop offset="1" stop-color="#b257a4"/>
+    </linearGradient>
+    <radialGradient id="arwell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="arjack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="20.32" height="128.5" fill="url(#aralu)"/>
+<g opacity="0.45"><path d="M4 100 L20 35 L40 45 L70 100 Z" fill="#54b2c5" fill-opacity=".3" stroke="#3d403f" stroke-width="1"/></g>
+
+<rect x="1.5" y="28" width="17.32" height="88" rx="2" fill="#b257a4" opacity=".22"/>
+<circle cx="2.44" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="2.44" cy="3" r=".55" fill="#555"/>
+<circle cx="17.88" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="17.88" cy="3" r=".55" fill="#555"/>
+<circle cx="2.44" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="2.44" cy="125.5" r=".55" fill="#555"/>
+<circle cx="17.88" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="17.88" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="10.16" y="10" text-anchor="middle" font-family='"Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif' font-size="3.4" letter-spacing="0.35" font-weight="900" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">A/R</text>
+    <text x="10.16" y="13.6" text-anchor="middle" font-family='"Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif' font-size="1.55" font-weight="600" fill="#5a2a52">attack · release</text><circle cx="10.16" cy="28.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="10.16" cy="28.00" r="5.00" fill="url(#arwell)" stroke="#2d3436" stroke-width=".4"/>
+<circle cx="10.16" cy="28.00" r="2.00" fill="#fef139" opacity=".9"/>
+<text x="10.16" y="36.90" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.85" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">A</text>
+<circle cx="10.16" cy="52.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="10.16" cy="52.00" r="5.00" fill="url(#arwell)" stroke="#2d3436" stroke-width=".4"/>
+<circle cx="10.16" cy="52.00" r="2.00" fill="#379a64" opacity=".9"/>
+<text x="10.16" y="60.90" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.85" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">R</text>
+<circle cx="10.16" cy="66.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="10.16" cy="66.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="10.16" cy="76.00" r="2.85" fill="url(#arjack)"/><circle cx="10.16" cy="76.00" r="1.28" fill="#111"/>
+<text x="10.16" y="82.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.7" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">GATE</text>
+<circle cx="10.16" cy="90.00" r="2.85" fill="url(#arjack)"/><circle cx="10.16" cy="90.00" r="1.28" fill="#111"/>
+<text x="10.16" y="96.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.7" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">TRIG</text>
+<circle cx="10.16" cy="104.00" r="2.85" fill="url(#arjack)"/><circle cx="10.16" cy="104.00" r="1.28" fill="#111"/>
+<text x="10.16" y="110.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.7" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">ENV</text>
+<circle cx="10.16" cy="116.00" r="2.85" fill="url(#arjack)"/><circle cx="10.16" cy="116.00" r="1.28" fill="#111"/>
+<text x="10.16" y="122.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.7" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#b257a4" stroke-width="0.45" paint-order="stroke fill">EOC</text>
+
+</svg>

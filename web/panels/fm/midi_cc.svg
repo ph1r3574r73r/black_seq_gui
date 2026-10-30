@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40.64mm" height="128.5mm" viewBox="0 0 40.64 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="midiccalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eac989"/>
+      <stop offset="1" stop-color="#a75c49"/>
+    </linearGradient>
+    <radialGradient id="midiccwell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="midiccjack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="40.64" height="128.5" fill="url(#midiccalu)"/>
+<g opacity="0.45"><g fill="none" stroke="#2b79b5" stroke-width="2.2" opacity=".25"><path d="M0 18 L20.3 23 L40.64 18"/><path d="M0 27 L20.3 32 L40.64 27"/><path d="M0 36 L20.3 41 L40.64 36"/><path d="M0 45 L20.3 50 L40.64 45"/><path d="M0 54 L20.3 59 L40.64 54"/><path d="M0 63 L20.3 68 L40.64 63"/><path d="M0 72 L20.3 77 L40.64 72"/><path d="M0 81 L20.3 86 L40.64 81"/><path d="M0 90 L20.3 95 L40.64 90"/><path d="M0 99 L20.3 104 L40.64 99"/><path d="M0 108 L20.3 113 L40.64 108"/><path d="M0 117 L20.3 122 L40.64 117"/></g></g>
+
+<rect x="1.5" y="28" width="37.64" height="88" rx="2" fill="#a75c49" opacity=".22"/>
+<circle cx="4.88" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="4.88" cy="3" r=".55" fill="#555"/>
+<circle cx="35.76" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="35.76" cy="3" r=".55" fill="#555"/>
+<circle cx="4.88" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="4.88" cy="125.5" r=".55" fill="#555"/>
+<circle cx="35.76" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="35.76" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="20.32" y="10" text-anchor="middle" font-family='Rockwell, "Courier New", "Lucida Console", monospace' font-size="4.4" letter-spacing="0.35" font-weight="900" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">MIDI CC</text>
+    <text x="20.32" y="13.6" text-anchor="middle" font-family='Rockwell, "Courier New", "Lucida Console", monospace' font-size="1.85" font-weight="600" fill="#636e72">8× CC → CV</text><circle cx="10.00" cy="24.00" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="24.00" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="32.30" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#1</text>
+<circle cx="10.00" cy="36.50" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="36.50" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="44.80" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#2</text>
+<circle cx="10.00" cy="49.00" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="49.00" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="57.30" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#3</text>
+<circle cx="10.00" cy="61.50" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="61.50" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="69.80" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#4</text>
+<circle cx="10.00" cy="74.00" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="74.00" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="82.30" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#5</text>
+<circle cx="10.00" cy="86.50" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="86.50" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="94.80" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#6</text>
+<circle cx="10.00" cy="99.00" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="99.00" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="107.30" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#7</text>
+<circle cx="10.00" cy="111.50" r="5.40" fill="#000" opacity=".25"/>
+<circle cx="10.00" cy="111.50" r="4.40" fill="url(#midiccwell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="10.00" y="119.80" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">#8</text>
+<circle cx="35.50" cy="24.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="24.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="36.50" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="36.50" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="49.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="49.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="61.50" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="61.50" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="74.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="74.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="86.50" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="86.50" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="99.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="99.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.50" cy="111.50" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.50" cy="111.50" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="30.00" cy="24.00" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="24.00" r="1.10" fill="#111"/>
+<text x="30.00" y="29.95" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC1</text>
+<circle cx="30.00" cy="36.50" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="36.50" r="1.10" fill="#111"/>
+<text x="30.00" y="42.45" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC2</text>
+<circle cx="30.00" cy="49.00" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="49.00" r="1.10" fill="#111"/>
+<text x="30.00" y="54.95" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC3</text>
+<circle cx="30.00" cy="61.50" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="61.50" r="1.10" fill="#111"/>
+<text x="30.00" y="67.45" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC4</text>
+<circle cx="30.00" cy="74.00" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="74.00" r="1.10" fill="#111"/>
+<text x="30.00" y="79.95" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC5</text>
+<circle cx="30.00" cy="86.50" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="86.50" r="1.10" fill="#111"/>
+<text x="30.00" y="92.45" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC6</text>
+<circle cx="30.00" cy="99.00" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="99.00" r="1.10" fill="#111"/>
+<text x="30.00" y="104.95" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC7</text>
+<circle cx="30.00" cy="111.50" r="2.45" fill="url(#midiccjack)"/><circle cx="30.00" cy="111.50" r="1.10" fill="#111"/>
+<text x="30.00" y="117.45" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">CC8</text>
+
+</svg>

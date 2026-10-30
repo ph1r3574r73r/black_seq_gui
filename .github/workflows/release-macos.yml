@@ -1,0 +1,52 @@
+name: Release macOS
+
+# Push a version tag to build + publish BlackSequencer-macOS.zip
+#   git tag v0.2.0 && git push origin v0.2.0
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to rebuild (e.g. v0.2.0). Leave empty to build without uploading."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build macOS app + zip
+        run: ./packaging/build_macos.sh
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlackSequencer-macOS
+          path: dist/BlackSequencer-macOS.zip
+          if-no-files-found: error
+
+      - name: Attach zip to GitHub Release
+        if: startsWith(github.ref, 'refs/tags/') || inputs.tag != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag != '' && inputs.tag || github.ref_name }}
+        run: |
+          set -euo pipefail
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --title "$TAG" \
+              --notes "macOS build of Black Sequencer. Unsigned — right-click → Open the first time if Gatekeeper blocks it." \
+              "dist/BlackSequencer-macOS.zip"
+          else
+            gh release upload "$TAG" "dist/BlackSequencer-macOS.zip" --clobber
+          fi

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.3 128.5" width="91.3mm" height="128.5mm">
+<style>text{font-family:Helvetica,Arial,sans-serif;fill:#1a1a1a}</style>
+<rect width="91.3" height="128.5" fill="#f4f1ea"/>
+<rect x="0.4" y="0.4" width="90.5" height="127.7" fill="none" stroke="#c8c2b6" stroke-width="0.4"/>
+<text x="45.65" y="8.2" text-anchor="middle" font-size="3.2" font-weight="700" letter-spacing="0.4">CLOUDS</text>
+<text x="45.65" y="12.2" text-anchor="middle" font-size="1.7" fill="#6a645c">texture synthesizer</text>
+<rect x="63.36" y="104.6" width="22.999999999999993" height="13.2" rx="1.2" fill="#2c2c2c"/>
+<circle cx="18.02" cy="40.62" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="18.02" y="35.019999999999996" text-anchor="middle" font-size="1.7">POSITION</text>
+<circle cx="45.64" cy="40.62" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="45.64" y="35.019999999999996" text-anchor="middle" font-size="1.7">SIZE</text>
+<circle cx="73.27" cy="40.62" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="73.27" y="35.019999999999996" text-anchor="middle" font-size="1.7">PITCH</text>
+<circle cx="12.3" cy="68.56" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="12.3" y="62.96" text-anchor="middle" font-size="1.7">IN GAIN</text>
+<circle cx="34.53" cy="68.56" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="34.53" y="62.96" text-anchor="middle" font-size="1.7">DENSITY</text>
+<circle cx="56.76" cy="68.56" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="56.76" y="62.96" text-anchor="middle" font-size="1.7">TEXTURE</text>
+<circle cx="78.99" cy="68.56" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="78.99" y="62.96" text-anchor="middle" font-size="1.7">BLEND</text>
+<text x="9.13" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">FREEZE</text>
+<text x="23.74" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">TRIG</text>
+<text x="38.34" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">POS</text>
+<text x="52.95" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">SIZE</text>
+<text x="67.56" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">V/OCT</text>
+<text x="82.16" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">BLEND</text>
+<text x="9.13" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">IN L</text>
+<text x="23.74" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">IN R</text>
+<text x="38.34" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">DENS</text>
+<text x="52.95" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">TEXT</text>
+<text x="67.56" y="106.8" text-anchor="middle" font-size="1.85" fill="#f4f1ea">OUT L</text>
+<text x="82.16" y="106.8" text-anchor="middle" font-size="1.85" fill="#f4f1ea">OUT R</text>
+</svg>

@@ -1,0 +1,26 @@
+# Live studio data — user projects and local rack edits stay off git.
+# The shipped demo (DEMO BANK), SYSTEM scales, and RACKS.default.json are tracked.
+studio/PROJECTS/*
+!studio/PROJECTS/DEMO\ BANK/
+!studio/PROJECTS/DEMO\ BANK/**
+
+studio/RACKS.json
+studio/**/*.bak
+studio/.DS_Store
+
+__pycache__/
+*.py[cod]
+.Python
+.DS_Store
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Internal / rebuild-only — not part of the product package
+mapping/
+.cursor/
+scripts/
+web/dsp/*_wasm.cpp
+web/design-previews.html

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60.96mm" height="128.5mm" viewBox="0 0 60.96 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="ericaswampalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f7f4"/>
+      <stop offset="1" stop-color="#e6e6e0"/>
+    </linearGradient>
+    <radialGradient id="ericaswampwell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#f0f0ec"/>
+      <stop offset=".55" stop-color="#b0b0aa"/>
+      <stop offset="1" stop-color="#50504c"/>
+    </radialGradient>
+    <radialGradient id="ericaswampjack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#6a6a66"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </radialGradient>
+  </defs>
+  <rect width="60.96" height="128.5" fill="url(#ericaswampalu)"/>
+<g fill="none" stroke="#0a0a0a" stroke-width=".35" opacity=".55">
+        <rect x="2.5" y="2.5" width="55.96" height="123.5" rx="1.2"/>
+        <rect x="4.5" y="4.5" width="51.96" height="119.5"/>
+        <path d="M8 14 H53.0 M8 114 H53.0"/>
+        <circle cx="8" cy="14" r="1.2"/><circle cx="53.0" cy="14" r="1.2"/>
+        <circle cx="8" cy="114" r="1.2"/><circle cx="53.0" cy="114" r="1.2"/>
+      </g>
+<g fill="none" stroke="#0a0a0a" stroke-width=".9"><path d="M6 18 Q30.48 10 54.96 18"/><path d="M8 23 Q30.48 30 52.96 23"/></g>
+<circle cx="7.32" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="7.32" cy="3" r=".55" fill="#888"/>
+<circle cx="53.64" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="53.64" cy="3" r=".55" fill="#888"/>
+<circle cx="7.32" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="7.32" cy="125.5" r=".55" fill="#888"/>
+<circle cx="53.64" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="53.64" cy="125.5" r=".55" fill="#888"/>
+
+      <text x="30.48" y="10" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="4.8" font-weight="700" letter-spacing="1" fill="none" stroke="#0a0a0a" stroke-width="0.35">SWAMP</text>
+      <text x="30.48" y="10" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="4.8" font-weight="700" letter-spacing="1" fill="#0a0a0a">SWAMP</text>
+      <text x="30.48" y="14.2" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" font-weight="700" letter-spacing="1.4" fill="#2e2e2e">ERICA DIY</text><circle cx="18.00" cy="32.00" r="7.20" fill="#000" opacity=".25"/>
+<circle cx="18.00" cy="32.00" r="6.20" fill="url(#ericaswampwell)" stroke="#0a0a0a" stroke-width=".4"/>
+<text x="18.00" y="42.10" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.45" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">RATE</text>
+<circle cx="43.00" cy="32.00" r="7.20" fill="#000" opacity=".25"/>
+<circle cx="43.00" cy="32.00" r="6.20" fill="url(#ericaswampwell)" stroke="#0a0a0a" stroke-width=".4"/>
+<text x="43.00" y="42.10" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.45" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">CHAOS</text>
+<circle cx="30.48" cy="62.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="30.48" cy="62.00" r="5.00" fill="url(#ericaswampwell)" stroke="#0a0a0a" stroke-width=".4"/>
+<text x="30.48" y="70.90" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="2.05" letter-spacing="0.45" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">LAG</text>
+<circle cx="12.00" cy="90.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="12.00" cy="90.00" r="1.28" fill="#111"/>
+<text x="12.00" y="96.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">RATE</text>
+<circle cx="30.48" cy="90.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="30.48" cy="90.00" r="1.28" fill="#111"/>
+<text x="30.48" y="96.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">CHAOS</text>
+<circle cx="49.00" cy="90.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="49.00" cy="90.00" r="1.28" fill="#111"/>
+<text x="49.00" y="96.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">CLK</text>
+<circle cx="10.00" cy="110.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="10.00" cy="110.00" r="1.28" fill="#111"/>
+<text x="10.00" y="116.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">STEP</text>
+<circle cx="23.50" cy="110.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="23.50" cy="110.00" r="1.28" fill="#111"/>
+<text x="23.50" y="116.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">SMOOTH</text>
+<circle cx="37.50" cy="110.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="37.50" cy="110.00" r="1.28" fill="#111"/>
+<text x="37.50" y="116.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">BURST</text>
+<circle cx="51.00" cy="110.00" r="2.85" fill="url(#ericaswampjack)"/><circle cx="51.00" cy="110.00" r="1.28" fill="#111"/>
+<text x="51.00" y="116.35" text-anchor="middle" font-family='"DIN Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif' font-size="1.85" letter-spacing="0.35" font-weight="700" fill="#0a0a0a" stroke="#f7f7f4" stroke-width="0.45" paint-order="stroke fill">NOISE</text>
+
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.8 128.5" width="70.8mm" height="128.5mm">
+<style>text{font-family:Helvetica,Arial,sans-serif;fill:#1a1a1a}</style>
+<rect width="70.8" height="128.5" fill="#f4f1ea"/>
+<rect x="0.4" y="0.4" width="70.0" height="127.7" fill="none" stroke="#c8c2b6" stroke-width="0.4"/>
+<text x="35.4" y="8.2" text-anchor="middle" font-size="3.2" font-weight="700" letter-spacing="0.4">TIDES</text>
+<text x="35.4" y="12.2" text-anchor="middle" font-size="1.7" fill="#6a645c">tidal modulator</text>
+<rect x="36.919999999999995" y="104.6" width="31.299999999999997" height="13.2" rx="1.2" fill="#2c2c2c"/>
+<circle cx="16.32" cy="33.45" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="16.32" y="27.85" text-anchor="middle" font-size="1.7">FREQUENCY</text>
+<circle cx="54.42" cy="33.45" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="54.42" y="27.85" text-anchor="middle" font-size="1.7">SHAPE</text>
+<circle cx="35.38" cy="55.55" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="35.38" y="49.949999999999996" text-anchor="middle" font-size="1.7">SMOOTHNESS</text>
+<circle cx="11.58" cy="60.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="11.58" y="55.0" text-anchor="middle" font-size="1.7">SLOPE</text>
+<circle cx="59.17" cy="60.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="59.17" y="55.0" text-anchor="middle" font-size="1.7">SHIFT</text>
+<circle cx="9.28" cy="80.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="9.28" y="75.0" text-anchor="middle" font-size="1.7">FREQ</text>
+<circle cx="22.32" cy="80.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="22.32" y="75.0" text-anchor="middle" font-size="1.7">SHAPE</text>
+<circle cx="35.37" cy="80.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="35.37" y="75.0" text-anchor="middle" font-size="1.7">SLOPE</text>
+<circle cx="48.42" cy="80.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="48.42" y="75.0" text-anchor="middle" font-size="1.7">SMOOTH</text>
+<circle cx="61.47" cy="80.6" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="61.47" y="75.0" text-anchor="middle" font-size="1.7">SHIFT</text>
+<text x="6.78" y="92.2" text-anchor="middle" font-size="1.85" fill="#1a1a1a">FREQ</text>
+<text x="18.22" y="92.2" text-anchor="middle" font-size="1.85" fill="#1a1a1a">SHAPE</text>
+<text x="29.68" y="92.2" text-anchor="middle" font-size="1.85" fill="#1a1a1a">SLOPE</text>
+<text x="41.12" y="92.2" text-anchor="middle" font-size="1.85" fill="#1a1a1a">SMOOTH</text>
+<text x="52.57" y="92.2" text-anchor="middle" font-size="1.85" fill="#1a1a1a">SHIFT</text>
+<text x="64.02" y="92.2" text-anchor="middle" font-size="1.85" fill="#1a1a1a">FM</text>
+<text x="6.78" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">TRIG</text>
+<text x="18.22" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">CLOCK</text>
+<text x="29.68" y="106.8" text-anchor="middle" font-size="1.85" fill="#1a1a1a">1</text>
+<text x="41.12" y="106.8" text-anchor="middle" font-size="1.85" fill="#f4f1ea">2</text>
+<text x="52.57" y="106.8" text-anchor="middle" font-size="1.85" fill="#f4f1ea">3</text>
+<text x="64.02" y="106.8" text-anchor="middle" font-size="1.85" fill="#f4f1ea">4</text>
+</svg>

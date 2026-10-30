@@ -1,0 +1,304 @@
+#rack-view {
+  --hp: 18px;
+  --row-h: 455px;
+  --case-wood: #3a2818;
+  --case-rail: #c5c8cc;
+  --case-rail-dark: #8e9399;
+  --bay: #1a1a1c;
+  --jack-cv-in: #3d9a82;
+  --jack-cv-in-dark: #1a4038;
+  --jack-cv-out: #8bc34a;
+  --jack-cv-out-dark: #3a5a18;
+  --jack-gate-in: #8a5cbf;
+  --jack-gate-in-dark: #3a2850;
+  --jack-gate-out: #e08a3c;
+  --jack-gate-out-dark: #6a3a10;
+  --jack-audio-in: #4a8ec8;
+  --jack-audio-in-dark: #1e3a55;
+  --jack-audio-out: #c9a050;
+  --jack-audio-out-dark: #5a4018;
+  --rack-accent: #ffb000;
+}
+
+.rack-page {
+  display: grid;
+  grid-template-columns: 172px minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: start;
+}
+
+.rack-palette {
+  max-height: calc(var(--row-h) * 2 + 80px);
+  overflow: auto;
+  padding-right: 0.2rem;
+}
+
+.rack-palette h3 {
+  margin: 0.7rem 0 0.25rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.rack-palette button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+.rack-palette button span { color: var(--muted); font-size: 0.68rem; }
+
+.rack-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.45rem;
+}
+
+.rack-preset { display: flex; align-items: center; gap: 0.35rem; }
+#rack-preset { max-width: 11rem; }
+#rack-preset-name { width: 8rem; }
+
+.case-scroll { overflow: auto; max-width: 100%; }
+
+.case {
+  width: max-content;
+  padding: 6px;
+  background: #121212;
+  border: 1px solid #2a2a2a;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.rail {
+  height: 8px;
+  background: #1a1a1a;
+  border-top: 1px solid #2a2a2a;
+  border-bottom: 1px solid #000;
+  box-shadow: none;
+}
+
+.bay {
+  position: relative;
+  width: calc(var(--hp) * 84);
+  height: calc(var(--row-h) * 2 + 12px);
+  background:
+    linear-gradient(#0e0e10, var(--bay)),
+    repeating-linear-gradient(90deg, transparent 0, transparent calc(var(--hp) - 1px), rgba(255, 255, 255, 0.04) calc(var(--hp) - 1px), rgba(255, 255, 255, 0.04) var(--hp));
+  box-shadow: inset 0 8px 16px rgba(0, 0, 0, 0.65);
+}
+
+.bay-gap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--row-h);
+  height: 12px;
+  z-index: 6;
+  pointer-events: none;
+}
+
+.module {
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  background: #1a1a1c;
+  cursor: grab;
+  user-select: none;
+}
+
+.module.fixed { cursor: default; }
+
+.module::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.22), inset -1px 0 0 rgba(0, 0, 0, 0.45);
+}
+
+.module-faceplate {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+}
+
+.hit {
+  position: absolute;
+  z-index: 8;
+  transform: translate(-50%, -50%);
+}
+
+#rack-view button.jack,
+#rack-view button.knob,
+#rack-view button.mi-button,
+#rack-view button.panel-toggle {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  line-height: 0;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+#rack-view button.jack {
+  width: calc(var(--hp) * 1.15);
+  height: calc(var(--hp) * 1.15);
+  border: 0;
+  cursor: crosshair;
+  background: transparent;
+  box-shadow: 0 0 0 2.5px var(--jack-ring, #6a6a6a), 0 0 0 3.5px rgba(0, 0, 0, 0.35);
+}
+
+#rack-view button.jack.size-sm { width: calc(var(--hp) * 0.95); height: calc(var(--hp) * 0.95); }
+#rack-view button.jack.size-lg { width: calc(var(--hp) * 1.4); height: calc(var(--hp) * 1.4); }
+#rack-view button.jack.cap {
+  background: radial-gradient(circle at 40% 35%, #8a8a8a, #2a2a2a 60%);
+}
+#rack-view button.jack.cv-in { box-shadow: 0 0 0 2.5px var(--jack-cv-in), 0 0 0 3.5px var(--jack-cv-in-dark); }
+#rack-view button.jack.cv-out { box-shadow: 0 0 0 2.5px var(--jack-cv-out), 0 0 0 3.5px var(--jack-cv-out-dark); }
+#rack-view button.jack.gate-in { box-shadow: 0 0 0 2.5px var(--jack-gate-in), 0 0 0 3.5px var(--jack-gate-in-dark); }
+#rack-view button.jack.gate-out { box-shadow: 0 0 0 2.5px var(--jack-gate-out), 0 0 0 3.5px var(--jack-gate-out-dark); }
+#rack-view button.jack.audio-in { box-shadow: 0 0 0 2.5px var(--jack-audio-in), 0 0 0 3.5px var(--jack-audio-in-dark); }
+#rack-view button.jack.audio-out { box-shadow: 0 0 0 2.5px var(--jack-audio-out), 0 0 0 3.5px var(--jack-audio-out-dark); }
+#rack-view button.jack.armed { box-shadow: 0 0 0 2px var(--rack-accent), 0 0 0 5px rgba(179, 58, 43, 0.45); }
+#rack-view button.jack.patched { outline: 2px solid #c9a227; outline-offset: 1px; }
+
+#rack-view button.knob {
+  width: calc(var(--hp) * 1.35);
+  height: calc(var(--hp) * 1.35);
+  border: 1px solid #0a0a0a;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(255, 255, 255, 0.35), transparent 28%),
+    radial-gradient(circle at 50% 50%, #3a3a3e, #141416 70%);
+  cursor: ns-resize;
+}
+
+#rack-view button.mi-button {
+  width: calc(var(--hp) * 0.72);
+  height: calc(var(--hp) * 0.72);
+  border: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, #4a4a4a, #1a1a1a 70%);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+}
+#rack-view button.mi-button.size-lg {
+  width: calc(var(--hp) * 1.05);
+  height: calc(var(--hp) * 1.05);
+}
+
+#rack-view button.panel-toggle {
+  width: calc(var(--hp) * 0.72);
+  height: calc(var(--hp) * 0.72);
+  border: 1px solid #111;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, #3a3a3a, #161616 70%);
+  cursor: pointer;
+}
+#rack-view button.panel-toggle.rect {
+  width: calc(var(--hp) * 1.15);
+  height: calc(var(--hp) * 0.55);
+  border-radius: 2px;
+}
+#rack-view button.panel-toggle.on {
+  background: #c9a227;
+  box-shadow: 0 0 0 1px #6d5410;
+}
+#rack-view button.panel-toggle.rect.on {
+  background: #b33a2b;
+  box-shadow: 0 0 0 1px #5c1c14;
+  color: #fff;
+}
+#rack-view button.panel-toggle.rect::after {
+  content: "M";
+  font: 700 9px/1 ui-sans-serif, system-ui, sans-serif;
+  color: #bbb;
+}
+#rack-view button.panel-toggle.rect.on::after { color: #fff; }
+
+#rack-view .led {
+  display: block;
+  width: calc(var(--hp) * 0.32);
+  height: calc(var(--hp) * 0.32);
+  border-radius: 50%;
+  background: #c4b8ae;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+#rack-view .led.lg { width: calc(var(--hp) * 0.52); height: calc(var(--hp) * 0.52); }
+#rack-view .led.on.green { background: #3ecf4a; box-shadow: 0 0 6px #3ecf4a; }
+#rack-view .led.on.red { background: #e23b3b; box-shadow: 0 0 6px #e23b3b; }
+#rack-view .led.on.orange { background: #f08a16; box-shadow: 0 0 6px #f08a16; }
+#rack-view .led.blink { animation: led-blink 0.45s steps(2) infinite; }
+@keyframes led-blink { 50% { filter: brightness(0.35); } }
+
+#rack-view button.knob.size-sm { width: calc(var(--hp) * 1); height: calc(var(--hp) * 1); }
+#rack-view button.knob.size-lg { width: calc(var(--hp) * 1.9); height: calc(var(--hp) * 1.9); }
+#rack-view button.knob::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  width: 2px;
+  height: 28%;
+  margin-left: -1px;
+  background: #f2efe6;
+  border-radius: 1px;
+}
+
+.module.selected {
+  z-index: 3;
+  box-shadow: inset 0 0 0 2px #c9a227;
+}
+
+#rack-view button.module-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  z-index: 12;
+  display: none;
+  width: 18px;
+  height: 18px;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  background: #8d2d24;
+  box-shadow: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#rack-view button.module-remove:hover { background: #b33a2b; border-color: transparent; }
+#rack-view .module.selected button.module-remove { display: block; }
+
+.cables {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.cable-group { pointer-events: stroke; cursor: pointer; }
+.cable-hit { fill: none; stroke: transparent; stroke-width: 12; pointer-events: stroke; }
+.cable-shadow { fill: none; stroke: rgba(0, 0, 0, 0.45); stroke-width: 7; transform: translate(1px, 2px); pointer-events: none; }
+.cable-body { fill: none; stroke-width: 4.5; stroke-linecap: round; pointer-events: none; }
+.cable-sheen { fill: none; stroke: rgba(255, 255, 255, 0.35); stroke-width: 1.4; stroke-dasharray: 14 36; pointer-events: none; }
+
+@media (max-width: 800px) {
+  .rack-page { grid-template-columns: 1fr; }
+  .rack-palette { max-height: 180px; }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50.8mm" height="128.5mm" viewBox="0 0 50.8 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="dualvcaalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7de0c1"/>
+      <stop offset="1" stop-color="#148b72"/>
+    </linearGradient>
+    <radialGradient id="dualvcawell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="dualvcajack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="50.8" height="128.5" fill="url(#dualvcaalu)"/>
+<g opacity="0.45"><g opacity=".35" fill="#caa769"><rect x="3.00" y="102.0" width="2.73" height="8"/><rect x="6.73" y="97.0" width="2.73" height="13"/><rect x="10.47" y="92.0" width="2.73" height="18"/><rect x="14.20" y="87.0" width="2.73" height="23"/><rect x="17.93" y="82.0" width="2.73" height="28"/><rect x="21.67" y="77.0" width="2.73" height="33"/><rect x="25.40" y="72.0" width="2.73" height="38"/><rect x="29.13" y="67.0" width="2.73" height="43"/><rect x="32.87" y="102.0" width="2.73" height="8"/><rect x="36.60" y="97.0" width="2.73" height="13"/><rect x="40.33" y="92.0" width="2.73" height="18"/><rect x="44.07" y="87.0" width="2.73" height="23"/></g></g>
+
+<rect x="1.5" y="28" width="47.80" height="88" rx="2" fill="#148b72" opacity=".22"/>
+<circle cx="6.1" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="6.1" cy="3" r=".55" fill="#555"/>
+<circle cx="44.7" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="44.7" cy="3" r=".55" fill="#555"/>
+<circle cx="6.1" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="6.1" cy="125.5" r=".55" fill="#555"/>
+<circle cx="44.7" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="44.7" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="25.40" y="10" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="4.4" letter-spacing="0.35" font-weight="900" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">DUAL VCA</text>
+    <text x="25.40" y="13.6" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.85" font-weight="600" fill="#00695c">lin · exp</text><circle cx="34.00" cy="25.50" r="7.20" fill="#000" opacity=".25"/>
+<circle cx="34.00" cy="25.50" r="6.20" fill="url(#dualvcawell)" stroke="#004d40" stroke-width=".4"/>
+<text x="34.00" y="35.60" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">BIAS A</text>
+<circle cx="34.00" cy="47.50" r="7.20" fill="#000" opacity=".25"/>
+<circle cx="34.00" cy="47.50" r="6.20" fill="url(#dualvcawell)" stroke="#004d40" stroke-width=".4"/>
+<text x="34.00" y="57.60" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">BIAS B</text>
+<circle cx="14.00" cy="25.50" r="2.35" fill="#121214" stroke="#004d40" stroke-width=".4" opacity=".85"/>
+<circle cx="14.00" cy="25.50" r="1.06" fill="#caa769" opacity=".35"/>
+<text x="14.00" y="31.75" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">EXP A</text>
+<circle cx="14.00" cy="47.50" r="2.35" fill="#121214" stroke="#004d40" stroke-width=".4" opacity=".85"/>
+<circle cx="14.00" cy="47.50" r="1.06" fill="#caa769" opacity=".35"/>
+<text x="14.00" y="53.75" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">EXP B</text>
+<circle cx="14.00" cy="71.00" r="2.85" fill="url(#dualvcajack)"/><circle cx="14.00" cy="71.00" r="1.28" fill="#111"/>
+<text x="14.00" y="77.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">CV A</text>
+<circle cx="36.80" cy="71.00" r="2.85" fill="url(#dualvcajack)"/><circle cx="36.80" cy="71.00" r="1.28" fill="#111"/>
+<text x="36.80" y="77.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">CV B</text>
+<circle cx="14.00" cy="87.00" r="2.85" fill="url(#dualvcajack)"/><circle cx="14.00" cy="87.00" r="1.28" fill="#111"/>
+<text x="14.00" y="93.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">IN A</text>
+<circle cx="36.80" cy="87.00" r="2.85" fill="url(#dualvcajack)"/><circle cx="36.80" cy="87.00" r="1.28" fill="#111"/>
+<text x="36.80" y="93.35" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">IN B</text>
+<circle cx="10.00" cy="106.50" r="2.85" fill="url(#dualvcajack)"/><circle cx="10.00" cy="106.50" r="1.28" fill="#111"/>
+<text x="10.00" y="112.85" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">OUT A</text>
+<circle cx="25.40" cy="106.50" r="2.85" fill="url(#dualvcajack)"/><circle cx="25.40" cy="106.50" r="1.28" fill="#111"/>
+<text x="25.40" y="112.85" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">OUT B</text>
+<circle cx="40.80" cy="106.50" r="2.85" fill="url(#dualvcajack)"/><circle cx="40.80" cy="106.50" r="1.28" fill="#111"/>
+<text x="40.80" y="112.85" text-anchor="middle" font-family='"Gill Sans", "Trebuchet MS", "Segoe UI", sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#004d40" stroke="#148b72" stroke-width="0.45" paint-order="stroke fill">SUM</text>
+
+</svg>

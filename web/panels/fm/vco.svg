@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60.96mm" height="128.5mm" viewBox="0 0 60.96 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="vcoalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9b8aa"/>
+      <stop offset="1" stop-color="#a75c49"/>
+    </linearGradient>
+    <radialGradient id="vcowell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="vcojack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="60.96" height="128.5" fill="url(#vcoalu)"/>
+<g opacity="0.45"><g fill="none" stroke="#2b79b5" stroke-width=".8" opacity=".35"><path d="M0 31 L5.08 25 L10.16 31 L15.24 25 L20.32 31 L25.400000000000002 25 L30.48 31 L35.56 25 L40.64 31 L45.72 25 L50.800000000000004 31 L55.88 25 L60.96 31"/><path d="M0 43 L5.08 37 L10.16 43 L15.24 37 L20.32 43 L25.400000000000002 37 L30.48 43 L35.56 37 L40.64 43 L45.72 37 L50.800000000000004 43 L55.88 37 L60.96 43"/><path d="M0 55 L5.08 49 L10.16 55 L15.24 49 L20.32 55 L25.400000000000002 49 L30.48 55 L35.56 49 L40.64 55 L45.72 49 L50.800000000000004 55 L55.88 49 L60.96 55"/><path d="M0 67 L5.08 61 L10.16 67 L15.24 61 L20.32 67 L25.400000000000002 61 L30.48 67 L35.56 61 L40.64 67 L45.72 61 L50.800000000000004 67 L55.88 61 L60.96 67"/><path d="M0 79 L5.08 73 L10.16 79 L15.24 73 L20.32 79 L25.400000000000002 73 L30.48 79 L35.56 73 L40.64 79 L45.72 73 L50.800000000000004 79 L55.88 73 L60.96 79"/><path d="M0 91 L5.08 85 L10.16 91 L15.24 85 L20.32 91 L25.400000000000002 85 L30.48 91 L35.56 85 L40.64 91 L45.72 85 L50.800000000000004 91 L55.88 85 L60.96 91"/><path d="M0 103 L5.08 97 L10.16 103 L15.24 97 L20.32 103 L25.400000000000002 97 L30.48 103 L35.56 97 L40.64 103 L45.72 97 L50.800000000000004 103 L55.88 97 L60.96 103"/><path d="M0 115 L5.08 109 L10.16 115 L15.24 109 L20.32 115 L25.400000000000002 109 L30.48 115 L35.56 109 L40.64 115 L45.72 109 L50.800000000000004 115 L55.88 109 L60.96 115"/></g></g>
+
+<rect x="1.5" y="28" width="57.96" height="88" rx="2" fill="#a75c49" opacity=".22"/>
+<circle cx="7.32" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="7.32" cy="3" r=".55" fill="#555"/>
+<circle cx="53.64" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="53.64" cy="3" r=".55" fill="#555"/>
+<circle cx="7.32" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="7.32" cy="125.5" r=".55" fill="#555"/>
+<circle cx="53.64" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="53.64" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="30.48" y="10" text-anchor="middle" font-family='Rockwell, "Courier New", "Lucida Console", monospace' font-size="4.8" letter-spacing="0.35" font-weight="900" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">VCO</text>
+    <text x="30.48" y="13.6" text-anchor="middle" font-family='Rockwell, "Courier New", "Lucida Console", monospace' font-size="1.85" font-weight="600" fill="#636e72">analog core</text><circle cx="30.48" cy="27.50" r="7.20" fill="#000" opacity=".25"/>
+<circle cx="30.48" cy="27.50" r="6.20" fill="url(#vcowell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="30.48" y="37.60" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">TUNE</text>
+<circle cx="15.50" cy="51.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="15.50" cy="51.00" r="5.00" fill="url(#vcowell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="15.50" y="59.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">FM</text>
+<circle cx="15.50" cy="71.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="15.50" cy="71.00" r="5.00" fill="url(#vcowell)" stroke="#2d3436" stroke-width=".4"/>
+<text x="15.50" y="79.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">PWM</text>
+<circle cx="46.50" cy="51.00" r="2.85" fill="url(#vcojack)"/><circle cx="46.50" cy="51.00" r="1.28" fill="#111"/>
+<text x="46.50" y="57.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">FM IN</text>
+<circle cx="46.50" cy="67.00" r="2.85" fill="url(#vcojack)"/><circle cx="46.50" cy="67.00" r="1.28" fill="#111"/>
+<text x="46.50" y="73.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">PWM IN</text>
+<circle cx="46.50" cy="83.00" r="2.85" fill="url(#vcojack)"/><circle cx="46.50" cy="83.00" r="1.28" fill="#111"/>
+<text x="46.50" y="89.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">SYNC</text>
+<circle cx="10.50" cy="106.50" r="2.85" fill="url(#vcojack)"/><circle cx="10.50" cy="106.50" r="1.28" fill="#111"/>
+<text x="10.50" y="112.85" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">1V/OCT</text>
+<circle cx="24.00" cy="106.50" r="2.85" fill="url(#vcojack)"/><circle cx="24.00" cy="106.50" r="1.28" fill="#111"/>
+<text x="24.00" y="112.85" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">SAW</text>
+<circle cx="37.50" cy="106.50" r="2.85" fill="url(#vcojack)"/><circle cx="37.50" cy="106.50" r="1.28" fill="#111"/>
+<text x="37.50" y="112.85" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">TRI</text>
+<circle cx="50.50" cy="106.50" r="2.85" fill="url(#vcojack)"/><circle cx="50.50" cy="106.50" r="1.28" fill="#111"/>
+<text x="50.50" y="112.85" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#2d3436" stroke="#a75c49" stroke-width="0.45" paint-order="stroke fill">PULSE</text>
+
+</svg>

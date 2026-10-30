@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.6 128.5" width="50.6mm" height="128.5mm">
+<style>text{font-family:Helvetica,Arial,sans-serif;fill:#1a1a1a}</style>
+<rect width="50.6" height="128.5" fill="#f4f1ea"/>
+<rect x="0.4" y="0.4" width="49.800000000000004" height="127.7" fill="none" stroke="#c8c2b6" stroke-width="0.4"/>
+<text x="25.3" y="8.2" text-anchor="middle" font-size="3.2" font-weight="700" letter-spacing="0.4">WARPS</text>
+<text x="25.3" y="12.2" text-anchor="middle" font-size="1.7" fill="#6a645c">meta modulator</text>
+<rect x="27.11" y="104.6" width="20.510000000000005" height="13.2" rx="1.2" fill="#2c2c2c"/>
+<circle cx="25.25" cy="33.37" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="25.25" y="27.769999999999996" text-anchor="middle" font-size="1.7">ALGORITHM</text>
+<circle cx="38.62" cy="65.37" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="38.62" y="59.77" text-anchor="middle" font-size="1.7">TIMBRE</text>
+<circle cx="8.09" cy="75.28" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="8.09" y="69.68" text-anchor="middle" font-size="1.7">LEVEL 1</text>
+<circle cx="21.1" cy="75.28" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="21.1" y="69.68" text-anchor="middle" font-size="1.7">LEVEL 2</text>
+<circle cx="8.09" cy="57.77" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<text x="7.11" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">LEVEL 1</text>
+<text x="19.2" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">LEVEL 2</text>
+<text x="31.31" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">ALGO</text>
+<text x="43.42" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">TIMBRE</text>
+<text x="7.11" y="106.79" text-anchor="middle" font-size="1.85" fill="#1a1a1a">1</text>
+<text x="19.2" y="106.79" text-anchor="middle" font-size="1.85" fill="#1a1a1a">2</text>
+<text x="31.31" y="106.79" text-anchor="middle" font-size="1.85" fill="#f4f1ea">1+2</text>
+<text x="43.42" y="106.79" text-anchor="middle" font-size="1.85" fill="#f4f1ea">AUX</text>
+</svg>

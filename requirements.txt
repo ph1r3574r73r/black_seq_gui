@@ -1,0 +1,8 @@
+python-rtmidi>=1.5.0
+pywebview>=4.4,<6
+# macOS system Python 3.9: pyobjc 12+ fails to build; pin for Cocoa/WebKit.
+pyobjc-core>=10.3,<11; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=10.3,<11; sys_platform == "darwin"
+pyobjc-framework-WebKit>=10.3,<11; sys_platform == "darwin"
+pyobjc-framework-Quartz>=10.3,<11; sys_platform == "darwin"
+pyobjc-framework-security>=10.3,<11; sys_platform == "darwin"

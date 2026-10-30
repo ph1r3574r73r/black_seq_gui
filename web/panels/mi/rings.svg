@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.8 128.5" width="70.8mm" height="128.5mm">
+<style>text{font-family:Helvetica,Arial,sans-serif;fill:#1a1a1a}</style>
+<rect width="70.8" height="128.5" fill="#f4f1ea"/>
+<rect x="0.4" y="0.4" width="70.0" height="127.7" fill="none" stroke="#c8c2b6" stroke-width="0.4"/>
+<text x="35.4" y="8.2" text-anchor="middle" font-size="3.2" font-weight="700" letter-spacing="0.4">RINGS</text>
+<text x="35.4" y="11.4" text-anchor="middle" font-size="1.7" fill="#6a645c">resonator</text>
+<circle cx="7.44" cy="16.02" r="2.35" fill="#2a2a2a"/>
+<circle cx="13.78" cy="16.05" r="1.35" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="18.11" cy="16.09" r="1.15" fill="none" stroke="#1f8a4c" stroke-width="0.35"/>
+<circle cx="18.11" cy="16.09" r="0.35" fill="#1f8a4c"/>
+<circle cx="21.85" cy="16.09" r="0.42" fill="#d4891a"/>
+<circle cx="23.07" cy="16.09" r="0.42" fill="#d4891a"/>
+<circle cx="25.75" cy="15.55" r="0.32" fill="#c43737"/>
+<circle cx="27.03" cy="15.55" r="0.32" fill="#c43737"/>
+<circle cx="25.75" cy="16.75" r="0.32" fill="#c43737"/>
+<circle cx="27.03" cy="16.75" r="0.32" fill="#c43737"/>
+<circle cx="44.34" cy="16.06" r="1.15" fill="none" stroke="#1f8a4c" stroke-width="0.3"/>
+<circle cx="44.34" cy="16.06" r="0.55" fill="none" stroke="#1f8a4c" stroke-width="0.3"/>
+<g stroke="#d4891a" stroke-width="0.28" stroke-linecap="round">
+  <path d="M47.2 15.2h2.3M47.2 16.06h2.3M47.2 16.92h2.3"/>
+</g>
+<g stroke="#c43737" stroke-width="0.28" stroke-linecap="round">
+  <path d="M51.5 14.9v2.3M52.34 14.9v2.3M53.18 14.9v2.3"/>
+</g>
+<circle cx="57.0" cy="16.05" r="1.35" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="63.36" cy="16.01" r="2.35" fill="#2a2a2a"/>
+<rect x="44.22" y="104.6" width="21.409999999999997" height="13.2" rx="1.2" fill="#2c2c2c"/>
+<circle cx="18.92" cy="33.43" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="18.92" y="27.83" text-anchor="middle" font-size="1.7">FREQUENCY</text>
+<circle cx="51.93" cy="33.43" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="51.93" y="27.83" text-anchor="middle" font-size="1.7">STRUCTURE</text>
+<circle cx="11.61" cy="60.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="11.61" y="55.03" text-anchor="middle" font-size="1.7">BRIGHTNESS</text>
+<circle cx="35.42" cy="60.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="35.42" y="55.03" text-anchor="middle" font-size="1.7">DAMPING</text>
+<circle cx="59.22" cy="60.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="59.22" y="55.03" text-anchor="middle" font-size="1.7">POSITION</text>
+<circle cx="9.41" cy="80.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="9.41" y="75.03" text-anchor="middle" font-size="1.7">FREQ</text>
+<circle cx="22.42" cy="80.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="22.42" y="75.03" text-anchor="middle" font-size="1.7">STR</text>
+<circle cx="35.42" cy="80.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="35.42" y="75.03" text-anchor="middle" font-size="1.7">BRT</text>
+<circle cx="48.42" cy="80.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="48.42" y="75.03" text-anchor="middle" font-size="1.7">DAMP</text>
+<circle cx="61.43" cy="80.63" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="61.43" y="75.03" text-anchor="middle" font-size="1.7">POS</text>
+<text x="9.41" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">FREQ</text>
+<text x="22.41" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">STRUCT</text>
+<text x="35.42" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">BRIGHT</text>
+<text x="48.42" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">DAMP</text>
+<text x="61.43" y="92.18" text-anchor="middle" font-size="1.85" fill="#1a1a1a">POS</text>
+<text x="9.41" y="106.78" text-anchor="middle" font-size="1.85" fill="#1a1a1a">STRUM</text>
+<text x="22.41" y="106.78" text-anchor="middle" font-size="1.85" fill="#1a1a1a">V/OCT</text>
+<text x="35.42" y="106.78" text-anchor="middle" font-size="1.85" fill="#1a1a1a">IN</text>
+<text x="48.42" y="106.78" text-anchor="middle" font-size="1.85" fill="#f4f1ea">ODD</text>
+<text x="61.43" y="106.78" text-anchor="middle" font-size="1.85" fill="#f4f1ea">EVEN</text>
+</svg>

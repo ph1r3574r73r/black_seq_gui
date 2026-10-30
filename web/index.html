@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Black Sequencer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="rack.css">
+</head>
+<body>
+  <section id="home" class="home">
+    <div class="dashboard">
+      <div class="libraries">
+        <section class="place-pane" aria-labelledby="studio-heading">
+          <div class="pane-head">
+            <h2 id="studio-heading">Studio</h2>
+          </div>
+          <div class="dash-columns" aria-hidden="true">
+            <span>Name</span>
+            <span>Tempo</span>
+          </div>
+          <div id="studio-projects" class="project-menu" aria-label="Studio projects"></div>
+        </section>
+        <section class="place-pane" aria-labelledby="card-heading">
+          <div class="pane-head">
+            <h2 id="card-heading">Card</h2>
+            <select id="card-drive" aria-label="Card drive"></select>
+          </div>
+          <div class="dash-columns" aria-hidden="true">
+            <span>Name</span>
+            <span>Tempo</span>
+          </div>
+          <div id="card-projects" class="project-menu" aria-label="Card projects"></div>
+        </section>
+      </div>
+      <div class="dash-foot">
+        <form class="create-project" data-create-place="studio">
+          <input name="name" maxlength="16" required autocomplete="off" spellcheck="false" autocapitalize="characters" placeholder="NEW PROJECT" aria-label="New project">
+          <button type="submit">Create</button>
+        </form>
+        <div class="dash-actions">
+          <button id="pick-move" type="button" disabled>To card</button>
+          <button id="pick-duplicate" type="button" disabled>Duplicate</button>
+          <button id="pick-rename" type="button" disabled>Rename</button>
+          <button id="pick-delete" type="button" disabled>Delete</button>
+          <button id="pick-open" type="button" class="primary" disabled>Open</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <p id="status" class="status" role="status"></p>
+
+  <main id="workspace" hidden>
+    <section class="library" aria-label="Project library">
+      <div class="transport">
+        <button id="projects-back" type="button">Projects</button>
+        <strong id="project-label" class="project-label" hidden></strong>
+        <button id="return-start" type="button" title="Return to step 1">|◀</button>
+        <select id="play-mode" aria-label="Play pattern or song" title="Pattern loops the open pattern. Song plays the current song from the start, then loops.">
+          <option value="pattern">Pattern</option>
+          <option value="song">Song</option>
+        </select>
+        <button id="play" type="button">Play</button>
+        <button id="stop" type="button">Stop</button>
+        <button id="midi-record" type="button" aria-pressed="false" title="Arm MIDI recording into the selected track">Rec</button>
+        <select id="midi-device" aria-label="MIDI input device" title="MIDI controller input"></select>
+        <button id="midi-import-open" type="button" title="Import a MIDI file onto CH1–4">Import MIDI</button>
+        <button id="midi-learn-gate" type="button" title="Learn a MIDI CC for gate length">Learn CC</button>
+        <label>Tempo
+          <input id="bpm" type="number" min="20" max="400" step="1">
+        </label>
+        <label title="How many steps this block plays in the editor. The pattern file still holds 64 steps.">Block
+          <input id="play-length" type="number" min="1" max="64" step="1" value="16">
+        </label>
+        <span id="position" class="position">Step 1</span>
+        <span class="spacer"></span>
+        <label>Zoom
+          <input id="zoom" type="range" min="8" max="32" step="1" value="16">
+        </label>
+        <span id="filepath" class="filepath"></span>
+        <button id="save" type="button" class="primary" title="Writes the pattern plus performance lanes (ratchet, probability, repeat, glide, shuffle, timing, direction, arp, modulation)">Save pattern</button>
+      </div>
+      <div class="slots" aria-label="Bank">
+        <span class="slot-label">Bank</span>
+        <select id="bank" aria-label="Bank"></select>
+      </div>
+      <div class="slots" aria-label="Patterns">
+        <span class="slot-label">Pattern</span>
+        <div id="patterns" class="pad-row"></div>
+      </div>
+      <div class="slots" aria-label="Songs">
+        <span class="slot-label">Song</span>
+        <div id="songs" class="pad-row"></div>
+      </div>
+    </section>
+
+    <nav class="tabs" aria-label="Editor">
+      <button type="button" class="tab active" data-tab="pattern">Pattern</button>
+      <button type="button" class="tab" data-tab="song">Song</button>
+      <button type="button" class="tab" data-tab="rack">Rack</button>
+    </nav>
+
+    <section id="pattern-view" class="session-wrap">
+      <div id="daw-scroll" class="daw-scroll">
+        <div id="daw-rows" class="daw-rows"></div>
+      </div>
+    </section>
+
+    <section id="song-view" hidden>
+      <div class="song-head">
+        <h2 id="song-title">Song</h2>
+        <span id="song-length" class="song-length"></span>
+        <label class="song-name" title="Shown in this editor. The module still uses the song number.">Name
+          <input id="song-name" maxlength="24" autocomplete="off" spellcheck="false" placeholder="Theme">
+        </label>
+        <button id="duplicate-song" type="button">Duplicate</button>
+        <label class="song-move">Move to
+          <select id="song-target" aria-label="Slot to move this song into"></select>
+        </label>
+        <button id="move-song" type="button">Move</button>
+        <button id="delete-song" type="button">Delete</button>
+        <span class="spacer"></span>
+        <button id="add-entry" type="button">Add pattern</button>
+        <button id="save-song" type="button" class="primary">Save song</button>
+      </div>
+      <div id="song-chain" class="song-chain" title="Each block is a pattern in this bank. Width is how many times it plays."></div>
+      <div id="song-edit" class="song-edit" hidden></div>
+    </section>
+
+    <section id="rack-view" hidden>
+      <div class="rack-page">
+        <aside id="rack-palette" class="rack-palette" aria-label="Modules"></aside>
+        <div class="rack-stage">
+          <div class="rack-tools">
+            <button id="rack-zoom-out" type="button" aria-label="Zoom out">−</button>
+            <span id="rack-zoom">100%</span>
+            <button id="rack-zoom-in" type="button" aria-label="Zoom in">+</button>
+            <label class="rack-preset">Preset
+              <select id="rack-preset" aria-label="Rack preset"></select>
+            </label>
+            <input id="rack-preset-name" type="text" maxlength="24" placeholder="Name" aria-label="Preset name" autocomplete="off" spellcheck="false">
+            <button id="rack-preset-save" type="button">Save</button>
+            <button id="rack-preset-delete" type="button">Delete</button>
+            <button id="rack-clear" type="button">Clear cables</button>
+          </div>
+          <div class="case-scroll">
+            <div id="rack-case" class="case">
+              <div class="rail"></div>
+              <div id="rack-bay" class="bay">
+                <svg id="rack-cables" class="cables"></svg>
+              </div>
+              <div class="rail bottom"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="confirm" class="confirm" hidden>
+    <div class="confirm-card" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-body"></p>
+      <div class="confirm-actions">
+        <button id="confirm-cancel" type="button">Cancel</button>
+        <button id="confirm-ok" type="button">Continue</button>
+      </div>
+    </div>
+  </div>
+  <div id="midi-import" class="confirm" hidden>
+    <div class="confirm-card" role="dialog" aria-modal="true" aria-labelledby="midi-import-title">
+      <h2 id="midi-import-title">Import MIDI</h2>
+      <p id="midi-import-file" class="hint"></p>
+      <div id="midi-import-rows" class="midi-map-rows"></div>
+      <label class="check"><input id="midi-import-replace" type="checkbox" checked> Replace mapped channels</label>
+      <label>Mono <select id="midi-import-mono"><option value="high">Highest note</option><option value="low">Lowest note</option></select></label>
+      <div class="confirm-actions">
+        <button id="midi-import-cancel" type="button">Cancel</button>
+        <button id="midi-import-apply" type="button" class="primary">Import</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="projects.js"></script>
+  <script src="songs.js"></script>
+  <script src="functions.js"></script>
+  <script src="session.js"></script>
+  <script src="playback.js"></script>
+  <script src="voices.js"></script>
+  <script src="rack-catalog.js"></script>
+  <script src="mi-modules.js"></script>
+  <script src="dsp/rack-audio.js"></script>
+  <script src="dsp/plaits-player.js"></script>
+  <script src="dsp/rings-player.js"></script>
+  <script src="dsp/mi-players.js"></script>
+  <script src="dsp/rack-voices.js"></script>
+  <script src="rack.js"></script>
+  <script src="rack-store.js"></script>
+  <script src="midi.js"></script>
+  <script src="places.js"></script>
+</body>
+</html>

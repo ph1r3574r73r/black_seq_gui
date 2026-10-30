@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.6 128.5" width="60.6mm" height="128.5mm">
+<style>text{font-family:Helvetica,Arial,sans-serif;fill:#1a1a1a}</style>
+<rect width="60.6" height="128.5" fill="#f4f1ea"/>
+<rect x="0.4" y="0.4" width="59.800000000000004" height="127.7" fill="none" stroke="#c8c2b6" stroke-width="0.4"/>
+<text x="30.3" y="8.2" text-anchor="middle" font-size="3.2" font-weight="700" letter-spacing="0.4">PLAITS</text>
+<text x="30.3" y="12.2" text-anchor="middle" font-size="1.7" fill="#6a645c">macro oscillator</text>
+<rect x="37.559999999999995" y="104.6" width="19.85" height="13.2" rx="1.2" fill="#2c2c2c"/>
+<circle cx="12.23" cy="29.19" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="12.23" y="23.590000000000003" text-anchor="middle" font-size="1.7">FREQUENCY</text>
+<circle cx="48.41" cy="29.19" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="48.41" y="23.590000000000003" text-anchor="middle" font-size="1.7">HARMONICS</text>
+<circle cx="10.97" cy="56.49" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="10.97" y="50.89" text-anchor="middle" font-size="1.7">TIMBRE</text>
+<circle cx="49.65" cy="56.49" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="49.65" y="50.89" text-anchor="middle" font-size="1.7">MORPH</text>
+<circle cx="10.97" cy="80.59" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="10.97" y="74.99000000000001" text-anchor="middle" font-size="1.7">TIMBRE</text>
+<circle cx="30.3" cy="80.59" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="30.3" y="74.99000000000001" text-anchor="middle" font-size="1.7">FM</text>
+<circle cx="49.64" cy="80.59" r="1.1" fill="none" stroke="#b7b1a6" stroke-width="0.25"/>
+<text x="49.64" y="74.99000000000001" text-anchor="middle" font-size="1.7">MORPH</text>
+<circle cx="25.86" cy="17.09" r="2.1" fill="#2a2a2a"/>
+<circle cx="34.76" cy="17.09" r="2.1" fill="#2a2a2a"/>
+<circle cx="30.31" cy="24.74" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="30.14" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="35.54" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="40.94" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="46.34" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="51.739999999999995" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="57.14" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<circle cx="30.31" cy="62.540000000000006" r="1.15" fill="#d9d3c8" stroke="#b7b1a6" stroke-width="0.2"/>
+<text x="7.42" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">MODEL</text>
+<text x="18.87" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">TIMBRE</text>
+<text x="30.31" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">FM</text>
+<text x="41.76" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">HARMONICS</text>
+<text x="53.21" y="92.19" text-anchor="middle" font-size="1.85" fill="#1a1a1a">MORPH</text>
+<text x="7.42" y="106.79" text-anchor="middle" font-size="1.85" fill="#1a1a1a">TRIG</text>
+<text x="18.87" y="106.79" text-anchor="middle" font-size="1.85" fill="#1a1a1a">LEVEL</text>
+<text x="30.31" y="106.79" text-anchor="middle" font-size="1.85" fill="#1a1a1a">V/OCT</text>
+<text x="41.76" y="106.79" text-anchor="middle" font-size="1.85" fill="#f4f1ea">OUT</text>
+<text x="53.21" y="106.79" text-anchor="middle" font-size="1.85" fill="#f4f1ea">AUX</text>
+</svg>

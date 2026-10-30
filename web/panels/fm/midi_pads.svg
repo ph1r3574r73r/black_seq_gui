@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40.64mm" height="128.5mm" viewBox="0 0 40.64 128.5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="midipadsalu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c80d8"/>
+      <stop offset="1" stop-color="#b9627f"/>
+    </linearGradient>
+    <radialGradient id="midipadswell" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#3a3a42"/>
+      <stop offset=".55" stop-color="#141418"/>
+      <stop offset="1" stop-color="#050506"/>
+    </radialGradient>
+    <radialGradient id="midipadsjack" cx="40%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#c8c4b8"/>
+      <stop offset="1" stop-color="#2a2820"/>
+    </radialGradient>
+  </defs>
+  <rect width="40.64" height="128.5" fill="url(#midipadsalu)"/>
+<g opacity="0.45"><g opacity=".4"><rect x="3.0" y="24" width="15.3" height="20" rx="2.5" fill="#1f957c" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="21.3" y="24" width="15.3" height="20" rx="2.5" fill="#cbbb8e" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="3.0" y="48" width="15.3" height="20" rx="2.5" fill="#1f957c" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="21.3" y="48" width="15.3" height="20" rx="2.5" fill="#cbbb8e" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="3.0" y="72" width="15.3" height="20" rx="2.5" fill="#1f957c" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="21.3" y="72" width="15.3" height="20" rx="2.5" fill="#cbbb8e" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="3.0" y="96" width="15.3" height="20" rx="2.5" fill="#1f957c" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/><rect x="21.3" y="96" width="15.3" height="20" rx="2.5" fill="#cbbb8e" fill-opacity=".3" stroke="#cbbb8e" stroke-width=".4"/></g></g>
+
+<rect x="1.5" y="28" width="37.64" height="88" rx="2" fill="#b9627f" opacity=".22"/>
+<circle cx="4.88" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="4.88" cy="3" r=".55" fill="#555"/>
+<circle cx="35.76" cy="3" r="1.55" fill="#1a1a1c"/><circle cx="35.76" cy="3" r=".55" fill="#555"/>
+<circle cx="4.88" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="4.88" cy="125.5" r=".55" fill="#555"/>
+<circle cx="35.76" cy="125.5" r="1.55" fill="#1a1a1c"/><circle cx="35.76" cy="125.5" r=".55" fill="#555"/>
+
+    <text x="20.32" y="10" text-anchor="middle" font-family='Impact, "Arial Black", "Helvetica Neue", sans-serif' font-size="4.4" letter-spacing="0.35" font-weight="900" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">PADS</text>
+    <text x="20.32" y="13.6" text-anchor="middle" font-family='Impact, "Arial Black", "Helvetica Neue", sans-serif' font-size="1.85" font-weight="600" fill="#dfe6e9">note → gates</text><circle cx="12.00" cy="32.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="12.00" cy="32.00" r="5.00" fill="url(#midipadswell)" stroke="#ffffff" stroke-width=".4"/>
+<text x="12.00" y="40.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">N1</text>
+<circle cx="12.00" cy="56.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="12.00" cy="56.00" r="5.00" fill="url(#midipadswell)" stroke="#ffffff" stroke-width=".4"/>
+<text x="12.00" y="64.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">N2</text>
+<circle cx="12.00" cy="80.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="12.00" cy="80.00" r="5.00" fill="url(#midipadswell)" stroke="#ffffff" stroke-width=".4"/>
+<text x="12.00" y="88.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">N3</text>
+<circle cx="12.00" cy="104.00" r="6.00" fill="#000" opacity=".25"/>
+<circle cx="12.00" cy="104.00" r="5.00" fill="url(#midipadswell)" stroke="#ffffff" stroke-width=".4"/>
+<text x="12.00" y="112.90" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="2.05" letter-spacing="0.08" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">N4</text>
+<circle cx="35.20" cy="32.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.20" cy="32.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.20" cy="56.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.20" cy="56.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.20" cy="80.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.20" cy="80.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="35.20" cy="104.00" r="1.4" fill="#0a0a0c" stroke="#e8c547" stroke-width=".45"/><circle cx="35.20" cy="104.00" r="0.75" fill="#e8c547" opacity=".4"/>
+<circle cx="29.00" cy="32.00" r="2.85" fill="url(#midipadsjack)"/><circle cx="29.00" cy="32.00" r="1.28" fill="#111"/>
+<text x="29.00" y="38.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">BD</text>
+<circle cx="29.00" cy="56.00" r="2.85" fill="url(#midipadsjack)"/><circle cx="29.00" cy="56.00" r="1.28" fill="#111"/>
+<text x="29.00" y="62.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">SD</text>
+<circle cx="29.00" cy="80.00" r="2.85" fill="url(#midipadsjack)"/><circle cx="29.00" cy="80.00" r="1.28" fill="#111"/>
+<text x="29.00" y="86.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">CH</text>
+<circle cx="29.00" cy="104.00" r="2.85" fill="url(#midipadsjack)"/><circle cx="29.00" cy="104.00" r="1.28" fill="#111"/>
+<text x="29.00" y="110.35" text-anchor="middle" font-family='"Helvetica Neue", Helvetica, Arial, sans-serif' font-size="1.9" letter-spacing="0.06" font-weight="700" fill="#ffffff" stroke="#b9627f" stroke-width="0.45" paint-order="stroke fill">OH</text>
+
+</svg>
